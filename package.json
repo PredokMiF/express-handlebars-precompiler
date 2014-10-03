@@ -1,0 +1,29 @@
+{
+    "name": "express-handlebars-precompiler",
+    "version": "0.0.2",
+    "description": "Precompile handlebar templates when it changed",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PredokMiF/express-handlebars-precompiler.git"
+    },
+    "keywords": [
+        "handlebars",
+        "express",
+        "precompile"
+    ],
+    "author": "Grigorchuk Konstantin <grigorchuk.konstantin@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PredokMiF/express-handlebars-precompiler/issues"
+    },
+    "homepage": "https://github.com/PredokMiF/express-handlebars-precompiler",
+    "dependencies": {
+        "handlebars-precompiler": "2.0.0",
+        "dirhash": "0.1.1",
+        "glob": "4.0.6"
+    }
+}
