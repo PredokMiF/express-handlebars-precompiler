@@ -1,6 +1,6 @@
 {
     "name": "express-handlebars-precompiler",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Precompile handlebar templates when it changed",
     "main": "index.js",
     "scripts": {

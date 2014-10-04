@@ -4,14 +4,14 @@ var dirhash = require('dirhash'),
     oldHash;
 
 module.exports = function (config) {
-    var newHash = dirhash(config.templatesPath),
-        express = function (req, res, next){
-            if (newHash !== oldHash) {
-                oldHash = newHash;
-                hbsPrecompiler.do(config);
-            }
-            next();
-        };
+    var express = function (req, res, next){
+		var newHash = dirhash(config.templatesPath);
+		if (newHash !== oldHash) {
+			oldHash = newHash;
+			hbsPrecompiler.do(config);
+		}
+		next();
+	};
 
     config.templates = glob.sync(config.templatesPath + '/**/*.handlebars');
 
