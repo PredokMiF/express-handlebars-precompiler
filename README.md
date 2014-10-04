@@ -22,3 +22,5 @@ In this example set templates dir (with all subdirectories) and compile/recompil
 
 It is sync method. All options gets from [handlebars-precompiler](https://www.npmjs.org/package/handlebars-precompiler) but you should set ```templatesPath``` is is path to
 templates directory. All files in this dir and its subdir with ```*.handlebars``` will be compiled when it is necessary.
+
+If you want only compile templates use ```require('express-handlebars-precompiler').compile(<config>)```
