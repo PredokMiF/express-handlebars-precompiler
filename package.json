@@ -13,7 +13,12 @@
     "keywords": [
         "handlebars",
         "express",
-        "precompile"
+        "express3",
+        "compiler",
+        "precompile",
+        "mustache",
+        "template",
+        "html"
     ],
     "author": "Grigorchuk Konstantin <grigorchuk.konstantin@gmail.com>",
     "license": "MIT",
