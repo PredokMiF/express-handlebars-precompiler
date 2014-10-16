@@ -1,6 +1,6 @@
 {
     "name": "express-handlebars-precompiler",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Precompile handlebar templates when it changed",
     "main": "index.js",
     "scripts": {
@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/PredokMiF/express-handlebars-precompiler",
     "dependencies": {
-        "handlebars-precompiler": "2.0.0",
+        "handlebars-precompiler": "git+https://github.com/PredokMiF/node-handlebars-precompiler.git",
         "dirhash": "0.1.1",
         "glob": "4.0.6"
     }
